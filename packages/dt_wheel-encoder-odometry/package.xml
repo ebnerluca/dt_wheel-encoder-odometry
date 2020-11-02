@@ -1,0 +1,11 @@
+<package>
+  <name>dt_wheel-encoder-odometry</name>
+  <version>0.1.0</version>
+  <description>
+  wheel encoder odometry
+  </description>
+  <maintainer email="ebnerl@ethz.ch">Luca Ebner</maintainer>
+  <license>None</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
