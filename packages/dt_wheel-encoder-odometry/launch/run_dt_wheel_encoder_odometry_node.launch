@@ -1,5 +1,11 @@
 <launch>
 
-	<node pkg="dt_wheel-encoder-odometry" type="dt_wheel_encoder_odometry_node.py" name="dt_wheel_encoder_odometry_node" output="screen"/>
+	<arg name="veh" default="default_vehicle" />
+
+	<group ns="$(arg veh)">
+
+		<node pkg="dt_wheel-encoder-odometry" type="dt_wheel_encoder_odometry_node.py" name="dt_wheel_encoder_odometry_node" output="screen"/>
+
+	</group>
 
 </launch>
